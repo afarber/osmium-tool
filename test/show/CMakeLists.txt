@@ -7,7 +7,7 @@
 #-----------------------------------------------------------------------------
 
 function(check_show _name _input _output _options)
-    check_output(show ${_name} "show --no-pager ${_options} show/${_input}" "show/${_output}")
+    check_output(show ${_name} "show ${_options} show/${_input}" "show/${_output}")
 endfunction()
 
 
