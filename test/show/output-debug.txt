@@ -1,0 +1,31 @@
+[1mheader
+[0m  [36mmultiple object versions[0m: no
+  [36mbounding boxes[0m: 
+  [36moptions[0m: 
+    generator = osmium-tool
+    version = 0.6
+
+=============================================
+
+[1mnode[0m 1 visible
+  [36mversion[0m:   1
+  [36mchangeset[0m: 1
+  [36mtimestamp[0m: 2021-01-01T00:00:00Z (1609459200)
+  [36muser[0m:      1 "[34mtest[0m"
+  [36mlon/lat[0m:   13.4,52.5
+  [36mtags[0m:      2
+    "[34mname[0m"    = "[34mTest Node[0m"
+    "[34mamenity[0m" = "[34mrestaurant[0m"
+
+[1mway[0m 2 visible
+  [36mversion[0m:   1
+  [36mchangeset[0m: 1
+  [36mtimestamp[0m: 2021-01-01T00:00:00Z (1609459200)
+  [36muser[0m:      1 "[34mtest[0m"
+  [36mtags[0m:      2
+    "[34mhighway[0m" = "[34mprimary[0m"
+    "[34mname[0m"    = "[34mTest Way[0m"
+  [36mnodes[0m:     2 (open)
+[37m    0: [0m         1
+[37m    1: [0m         3
+
