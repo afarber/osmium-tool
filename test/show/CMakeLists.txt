@@ -13,9 +13,9 @@ endfunction()
 
 #-----------------------------------------------------------------------------
 
-check_show(debug input.osm output-debug.txt "-f debug -d")
-check_show(opl input.osm output-opl.opl "-f debug -o")
-check_show(xml input.osm output-xml.osm "-f debug -x")
+check_show(debug input.osm output-debug.txt "-f debug")
+check_show(opl input.osm output-opl.opl "-f opl")
+check_show(xml input.osm output-xml.osm "-f xml")
 
 
 #-----------------------------------------------------------------------------
