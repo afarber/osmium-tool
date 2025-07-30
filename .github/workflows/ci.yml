@@ -210,6 +210,6 @@ jobs:
         if: startsWith(matrix.os, 'windows-')
         run: |
           cd build
-          ./osmium show -f debug ../test/show/input.osm | base64
+          ./src/osmium show -f debug ../test/show/input.osm | base64
         shell: bash
       - uses: ./.github/actions/ctest
