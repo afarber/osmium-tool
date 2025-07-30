@@ -45,11 +45,6 @@ option(RUN_TESTS_WITH_BINARY_COMPARE "Run tests that do binary comparisons" ON)
 #
 #-----------------------------------------------------------------------------
 
-# Set policy for Boost findpackage to avoid deprecated module warning
-if(POLICY CMP0167)
-    cmake_policy(SET CMP0167 NEW)
-endif()
-
 find_package(Boost 1.55.0 REQUIRED COMPONENTS program_options)
 include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 
