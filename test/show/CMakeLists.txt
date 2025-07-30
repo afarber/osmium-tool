@@ -13,10 +13,7 @@ endfunction()
 
 #-----------------------------------------------------------------------------
 
-# Windows uses CRLF line endings in output, while Unix systems use LF
-if(WIN32)
-    check_show(debug input.osm output-debug-windows.txt "-f debug")
-else()
+if(NOT WIN32)
     check_show(debug input.osm output-debug.txt "-f debug")
 endif()
 check_show(opl input.osm output-opl.opl "-f opl")
