@@ -13,7 +13,7 @@ endfunction()
 
 #-----------------------------------------------------------------------------
 
-# Windows includes ANSI color codes in debug output, while Unix systems may filter them through pager
+# Windows uses CRLF line endings in output, while Unix systems use LF
 if(WIN32)
     check_show(debug input.osm output-debug-windows.txt "-f debug")
 else()
